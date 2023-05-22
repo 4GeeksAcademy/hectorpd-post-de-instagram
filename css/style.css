@@ -1,0 +1,56 @@
+body{
+    background: rgb(80, 11, 207);
+    margin: 0;
+}
+ .principal{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border: 100px;
+    border-color: rgb(8, 8, 8);
+}
+.post{
+    background-color: white;
+    display: flexbox;
+    width: 600px;
+    margin-top: 5px;
+}
+.encabezado{
+      display: inline-table;
+      justify-content: space-between;
+      align-items: center;
+      width: 600px;
+      height: 90px;
+      padding: 10px;
+}
+h1{
+    padding: 10px;
+}
+.menu{
+    padding-right: 10px;
+}
+.imagen{
+    width: 600px;
+    position: center;
+}
+img{
+    position: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pie-de-pagina{
+    display: flex;
+    width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    margin-top: 20px;
+}
+.iconos{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
