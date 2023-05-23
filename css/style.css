@@ -1,56 +1,80 @@
 body{
-    background: rgb(80, 11, 207);
-    margin: 0;
+  background: black;
+  margin: 0;
+  overflow: scroll;
 }
- .principal{
-    width: 600px;
-    height: 700px;
-    margin: auto;
-    background-color: white;
-    margin-top: 20px;
-    border: 100px;
-    border-color: rgb(8, 8, 8);
+.principal{
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+  border: 100px;
+  border-color: rgb(8, 8, 8);
+  font-family: 'Roboto', sans-serif;
 }
 .post{
-    background-color: white;
-    display: flexbox;
-    width: 600px;
-    margin-top: 5px;
+  background-color: white;
+  display: flexbox;
+  width: 600px;
+  margin-top: 5px;
 }
 .encabezado{
-      display: inline-table;
-      justify-content: space-between;
-      align-items: center;
-      width: 600px;
-      height: 90px;
-      padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 581px;
+  height: 60px;
+  padding: 10px;
+}
+.titulo{
+  display: flex;
+}
+.titulodrch{
+    display: inline-block;
 }
 h1{
-    padding: 10px;
+  width: 40px;
+  margin-top: 35px;
+}
+h2{
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 0;
+  height: 28px;
+}
+h3{
+    font-size: small;
+    margin-top: 0;
+    height: 22px;
 }
 .menu{
-    padding-right: 10px;
+  float: right;
 }
 .imagen{
-    width: 600px;
-    position: center;
+  width: 600px;
+  position: center;
 }
 img{
-    position: center;
-    width: 100%;
-    margin-bottom: 10px;
+  width: 100%;
 }
 .pie-de-pagina{
-    display: flex;
-    width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 20px;
-    margin-top: 20px;
+  display: flex;
+  width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px;
+  margin-top: 20px;
 }
 .iconos{
-    margin: 10px;
+  margin: 10px;
+  margin-bottom: 25px;
 }
 p{
-    margin: 10px;
+  font-style: roboto;
+  font-size: large;
+  margin: 10px; 
+}
+span{
+  float: right;
 }
