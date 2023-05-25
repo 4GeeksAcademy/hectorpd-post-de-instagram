@@ -78,3 +78,15 @@ p{
 span{
   float: right;
 }
+.fa-regular fa-heart fa-xl{
+  color: black;
+}
+.fa-regular fa-comment fa-xl{
+  color: black;
+}
+.fa-regular fa-paper-plane fa-xl{
+  color: black;
+}
+.fa-regular fa-bookmark fa-xl{
+  color: black;
+}
